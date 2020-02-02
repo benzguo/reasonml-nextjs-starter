@@ -1,13 +1,10 @@
-%raw
-"require('../css/main.css')";
+[%bs.raw {|require("../css/main.css")|}];
 
 [@react.component]
 let make = (~onServer) => {
   <div>
     <Header />
-    // <p className=TW.([Padding(Px4), BackgroundColor(BgBlack)] |> make)>
-    //   {ReasonReact.string("HOME PAGE")}
-    // </p>
+    <p className="text-xs"> {ReasonReact.string("HOME PAGE")} </p>
     <p> {ReasonReact.string("HOME PAGE is here!")} </p>
     <p> {ReasonReact.string("onServer: " ++ string_of_bool(onServer))} </p>
     <Counter />

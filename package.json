@@ -17,7 +17,6 @@
     "next-transpile-modules": "2.3.1",
     "postcss-import": "^12.0.1",
     "postcss-preset-env": "^6.7.0",
-    "re-tailwind": "^0.0.3",
     "react": "^16.12.0",
     "react-copy-to-clipboard": "^5.0.2",
     "react-dom": "^16.12.0",
@@ -25,7 +24,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.4.3",
-    "bs-platform": "5.0.3",
+    "bs-platform": "^7.0.1",
     "concurrently": "^4.1.0"
   }
 }

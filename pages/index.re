@@ -1,5 +1,7 @@
 [%bs.raw {|require("../css/main.css")|}];
 
+Js.log("hello");
+
 [@react.component]
 let make = (~onServer) => {
   <div>

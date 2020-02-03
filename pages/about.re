@@ -1,3 +1,5 @@
+[%bs.raw {|require("../css/main.css")|}];
+
 let countWordsInString = text => {
   let spacesRegex = Js.Re.fromString("\s+");
 
@@ -27,7 +29,9 @@ let make = () => {
   <div>
     <Header />
     <span> {wordsCountText |> ReasonReact.string} </span>
-    <p> {"This is the about page." |> ReasonReact.string} </p>
+    <p className="text-xs">
+      {"This is the about page." |> ReasonReact.string}
+    </p>
     <textarea
       placeholder="Express yourself..."
       value=text

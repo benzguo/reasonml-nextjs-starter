@@ -9,6 +9,9 @@ let make = () => {
     <Next.Link href="/about">
       <a style=styles> {ReasonReact.string("About")} </a>
     </Next.Link>
+    <Next.Link href="/login">
+      <a style=styles> {ReasonReact.string("Log in")} </a>
+    </Next.Link>
   </div>;
 };
 
